@@ -23,9 +23,7 @@ class FirstFragment : Fragment() {
 
      //val chislo:String="chislo"
 
-        binding.button.setOnClickListener{
 
-        }
         binding.textView.setOnClickListener {
             val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(22)
 
